@@ -1,0 +1,35 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+secrets.properties
+keystore.properties
+google-services.json
+
+# User/financial data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.backup
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+
